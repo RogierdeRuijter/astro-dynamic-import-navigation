@@ -6,6 +6,8 @@
 - Open developer console
 - Set logs to be presistent accross reloads
   - Console tab -> Settings (circle with 3 dashes) -> Check "Preserve log"
+- Disable cache
+  - Network tab -> Check "Disable Caches"
 - Copy the this url to the clipboard: `http://localhost:4321/page1`
 
 ## Steps to Reproduce
