@@ -15,6 +15,9 @@
 - Quickly paste the url in the address bar and hit enter
 - Observe the error in the console: "dynamic import module failed"
 
-Note: You might have to repeat moving back and forward between pages a few times
+## Notes
+- You might have to repeat moving back and forward between pages a few times
 to see the error.
+- Error does not seem to occur when running `npm run build` and serving the
+built files with `npm run preview`.
 
