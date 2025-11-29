@@ -6,8 +6,8 @@ import Layout from '../layouts/Layout.astro';
   <h1>Welcome to Astro!</h1>
 </Layout>
 <script>
-  import('../long-running-api.ts').then((module) => {
-    console.log('Welcome component loaded:', module);
+  import('../long-running-module.ts').then((module) => {
+    console.log('Loaded:', module);
   });
 </script>
 
